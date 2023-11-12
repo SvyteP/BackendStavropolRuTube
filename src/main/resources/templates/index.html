@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+	<title>Rutube | ИИ перевод видео</title>
+</head>
+<body>
+	<header>
+		<a href="https://rutube.ru" class="header-logo-wrapper-module__link" data-testid="rutube-logo">
+			<svg width="165" height="45" viewBox="0 0 84 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path
+					d="M8.42198 8.88096H2.56018V6.51798H8.42198C8.76438 6.51798 9.00246 6.57878 9.12194 6.68495C9.24142 6.79112 9.31543 6.98804 9.31543 7.2757V8.12415C9.31543 8.42724 9.24142 8.62415 9.12194 8.73032C9.00246 8.83649 8.76438 8.88187 8.42198 8.88187V8.88096ZM8.82412 4.29021H0.0742188V14.3955H2.56018V11.1078H7.14155L9.31543 14.3955H12.0992L9.70241 11.0924C10.5861 10.959 10.9828 10.6831 11.3101 10.2285C11.6373 9.77388 11.8014 9.04702 11.8014 8.07697V7.31925C11.8014 6.74393 11.7417 6.28931 11.6373 5.94085C11.533 5.59239 11.3547 5.28931 11.1014 5.01707C10.8339 4.75936 10.5361 4.57787 10.1786 4.45628C9.82101 4.35011 9.37428 4.28931 8.82412 4.28931V4.29021Z"
+					fill="white"></path>
+				<path
+					d="M15.579 11.4106V4.28931H13.0898V11.3498C13.0898 11.9252 13.1345 12.3953 13.2389 12.7438C13.3434 13.1077 13.522 13.4108 13.7907 13.6676C14.0442 13.9399 14.3424 14.1223 14.6996 14.2285C15.0576 14.3492 15.504 14.3955 16.0709 14.3955H21.8508C22.4026 14.3955 22.8499 14.3501 23.207 14.2285C23.565 14.1223 23.8632 13.9408 24.131 13.6676C24.3846 13.4099 24.5632 13.1068 24.6676 12.7438C24.7721 12.3953 24.8319 11.9252 24.8319 11.3498V4.28931H22.3428V11.4106C22.3428 11.7137 22.2687 11.9107 22.149 12.0169C22.0294 12.123 21.791 12.1684 21.4482 12.1684H16.4735C16.1155 12.1684 15.8772 12.123 15.7584 12.0169C15.6388 11.9107 15.5799 11.7137 15.5799 11.4106H15.579Z"
+					fill="white"></path>
+				<path d="M33.8509 14.3952V6.51612H38.5534V4.28906H26.6699V6.51612H31.3725V14.3952H33.8509Z" fill="white"></path>
+				<path
+					d="M42.8817 11.4104V4.28906H40.3926V11.3496C40.3926 11.925 40.4372 12.3951 40.5417 12.7435C40.6461 13.1075 40.8247 13.4106 41.0934 13.6674C41.347 13.9397 41.6452 14.1221 42.0023 14.2283C42.3603 14.349 42.8067 14.3952 43.3736 14.3952H49.1536C49.7053 14.3952 50.1526 14.3499 50.5097 14.2283C50.8678 14.1221 51.1659 13.9406 51.4338 13.6674C51.6873 13.4097 51.8659 13.1066 51.9704 12.7435C52.0748 12.3951 52.1346 11.925 52.1346 11.3496V4.28906H49.6455V11.4104C49.6455 11.7135 49.5714 11.9104 49.4518 12.0166C49.333 12.1228 49.0938 12.1682 48.7509 12.1682H43.7763C43.4183 12.1682 43.1799 12.1228 43.0611 12.0166C42.9415 11.9104 42.8826 11.7135 42.8826 11.4104H42.8817Z"
+					fill="white"></path>
+				<path
+					d="M56.4669 12.1682V10.3504H62.359C62.7023 10.3504 62.9409 10.4112 63.0607 10.5174C63.1805 10.6236 63.2547 10.8205 63.2547 11.1082V11.4113C63.2547 11.7144 63.1805 11.9113 63.0607 12.0175C62.9418 12.1237 62.7023 12.1691 62.359 12.1691H56.4669V12.1682ZM56.4669 8.3348V6.51703H61.76C62.1185 6.51703 62.3572 6.57783 62.4761 6.68401C62.5959 6.79019 62.6549 6.98713 62.6549 7.27481V7.57792C62.6549 7.88104 62.595 8.07797 62.4761 8.18415C62.3572 8.29033 62.1176 8.33571 61.76 8.33571H56.4669V8.3348ZM65.1329 7.22853V7.0316C65.1329 6.09231 64.8942 5.39533 64.4169 4.95609C63.9395 4.51685 63.1778 4.28906 62.1632 4.28906H53.9746V14.3952H62.747C63.7616 14.3952 64.5232 14.1829 65.0006 13.7436C65.478 13.3044 65.7167 12.6074 65.7167 11.6681V11.4558C65.7167 10.5165 65.478 9.84945 65.0006 9.45559C64.9112 9.39478 64.8218 9.34941 64.7315 9.30403C64.6421 9.25866 64.416 9.19785 64.2524 9.13705C64.5804 8.95554 64.8048 8.71324 64.9389 8.44007C65.0587 8.16691 65.1329 7.75852 65.1329 7.22762V7.22853Z"
+					fill="white"></path>
+				<path
+					d="M69.4772 6.51612H78.4493V4.28906H66.9902V14.3952H78.4493V12.1682H69.4772V10.4557H77.3066V8.22862H69.4772V6.51612Z"
+					fill="white"></path>
+				<path
+					d="M81.6325 4.28899C82.6873 4.28899 83.5424 3.42866 83.5424 2.3674C83.5424 1.30613 82.6873 0.445801 81.6325 0.445801C80.5777 0.445801 79.7227 1.30613 79.7227 2.3674C79.7227 3.42866 80.5777 4.28899 81.6325 4.28899Z"
+					fill="#ED143B"></path>
+			</svg>
+		</a>
+
+		<h1>BUG<span>SLAYERS</span></h1>
+
+		<a href="#" class="link-yadisk">Яндекс Диск
+			<svg width="18px" height="18px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg"
+				xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000">
+				<g id="SVGRepo_bgCarrier" stroke-width="0" />
+				<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" />
+				<g id="SVGRepo_iconCarrier">
+					<title>External-Link</title>
+					<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+						<g id="External-Link">
+							<rect id="Rectangle" fill-rule="nonzero" x="0" y="0" width="24" height="24"> </rect>
+							<path
+								d="M20,12 L20,18 C20,19.1046 19.1046,20 18,20 L6,20 C4.89543,20 4,19.1046 4,18 L4,6 C4,4.89543 4.89543,4 6,4 L12,4"
+								id="Path" stroke="#ffffff" stroke-width="2" stroke-linecap="round"> </path>
+							<path d="M16,4 L19,4 C19.5523,4 20,4.44772 20,5 L20,8" id="Path" stroke="#ffffff" stroke-width="2"
+								stroke-linecap="round"> </path>
+							<line x1="11" y1="13" x2="19" y2="5" id="Path" stroke="#ffffff" stroke-width="2" stroke-linecap="round">
+							</line>
+						</g>
+					</g>
+				</g>
+			</svg>
+		</a>
+	</header>
+
+	<main>
+		<div class="left-right-side">
+			<video id="original-video" controls>
+				<source src="" type="video/mp4">
+			</video>
+		</div>
+
+		<div class="center-side">
+			<form id="upload-form" enctype="multipart/form-data">
+				<input id="upload-input" type="file" name="video" accept=".mp4" class="display-none" style="width: 0;">
+				<label for="upload-input" class="translate-buttons">Загрузить видео⌛</label>
+				<button id="send-button" type="button" class="translate-buttons">Отправить✅</button>
+			</form>
+		</div>
+
+		<div class="left-right-side">
+			<video id="translated-video" controls>
+				
+			</video>
+		</div>
+	</main>
+
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			list-style: none;
+			font-family: "Montserrat", sans-serif;
+		}
+
+		html {
+			font-size: 62.5%;
+		}
+
+		body {
+			background-color: #14191f;
+		}
+
+		.display-none {
+			opacity: 0;
+		}
+
+		header {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			padding: 1.5rem 5rem;
+			background-color: #1c232b;
+		}
+		header h1 {
+			padding: 1rem 1.5rem;
+			color: white;
+			font-size: 3.2rem;
+			transition: 0.3s ease-in-out;
+			border-radius: 1rem;
+			cursor: default;
+		}
+		header h1 span {
+			color: #f41240;
+		}
+		header h1:hover {
+			box-shadow: 0px 0px 13px 6px #f41240;
+		}
+		header .link-yadisk {
+			color: white;
+			text-decoration: none;
+			font-size: 1.6rem;
+			display: flex;
+		}
+		header .link-yadisk svg {
+			margin-left: 0.6rem;
+		}
+		header .link-yadisk:hover {
+			text-decoration: underline;
+		}
+
+		main {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			padding: 4rem;
+		}
+
+		.left-right-side {
+			width: 40%;
+		}
+		.left-right-side video {
+			width: 100%;
+			height: 40rem;
+			border: #1c232b solid 0.4rem;
+			border-radius: 1rem;
+		}
+
+		.center-side .translate-buttons {
+			display: block;
+			background-color: #f41240;
+			color: white;
+			border: none;
+			border-radius: 0.5rem;
+			cursor: pointer;
+			padding-block: 0.6rem;
+			padding-inline: 1rem;
+			font-size: 1.6rem;
+			font-weight: 500;
+			margin-bottom: 1rem;
+			transition: 0.2s ease-in-out;
+			max-width: 20rem;
+			min-width: 20rem;
+			text-align: center;
+			margin-inline: auto;
+		}
+		.center-side .translate-buttons:hover {
+			color: #1c232b;
+			background-color: white;
+		}
+		.center-side .line-center {
+			width: 40rem;
+			height: 0.4rem;
+			background-color: #1c232b;
+			margin-bottom: 1rem;
+			margin-block: 1rem;
+		}
+	</style>
+
+	<script>
+
+		document.getElementById('send-button').addEventListener('click', function() {
+			const fileInput = document.getElementById('upload-input');
+			const fileUrl = URL.createObjectURL(fileInput.files[0]);
+			document.getElementById('original-video').src = fileUrl;
+
+			let formData = new FormData();
+			formData.append('file', document.getElementById('upload-input').files[0]);
+
+			fetch('http://localhost:8080/add', {
+				method: 'POST',
+				body: formData
+			}).then(response => {
+				if (!response.ok) {
+					throw new Error('Ошибка загрузки видео: ' + response.status);
+				}
+				console.log('Видео успешно загружено на сервер');
+			}).catch(error => {
+				console.error(error);
+			});
+		});
+	</script>
+</body>
+</html>
